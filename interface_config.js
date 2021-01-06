@@ -44,7 +44,7 @@ var interfaceConfig = {
      */
     CONNECTION_INDICATOR_DISABLED: false,
 
-    DEFAULT_BACKGROUND: '#474747',
+    DEFAULT_BACKGROUND: '#FF0000',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     DEFAULT_LOGO_URL: 'images/watermark.svg',
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',

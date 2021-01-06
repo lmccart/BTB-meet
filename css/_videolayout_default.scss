@@ -29,7 +29,8 @@
     }
 }
 #largeVideoBackgroundContainer {
-    filter: blur(40px);
+    // filter: blur(40px);
+    display: none;
 }
 
 .videocontainer {
@@ -221,7 +222,7 @@
 }
 
 #largeVideoWrapper {
-    box-shadow: 0 0 20px -2px #444;
+    // box-shadow: 0 0 20px -2px #444;
 }
 
 #largeVideo,
@@ -250,9 +251,8 @@
 
 #etherpad {
     text-align: center;
-}
-
-#etherpad {
+    background-color: red;
+    background-image: linear-gradient(to bottom right, red, yellow);
     z-index: $zindex0;
 }
 

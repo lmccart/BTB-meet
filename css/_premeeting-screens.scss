@@ -12,7 +12,7 @@
 
  .premeeting-screen {
     align-items: stretch;
-    background: radial-gradient(50% 50% at 50% 50%, #2A3A4B 20.83%, #1E2A36 100%);
+    // background: radial-gradient(50% 50% at 50% 50%, #2A3A4B 20.83%, #1E2A36 100%);
     display: flex;
     flex-direction: column;
     font-size: 1.3em;
@@ -214,7 +214,7 @@
     width: 100%;
 
     &.no-video {
-        background: radial-gradient(50% 50% at 50% 50%, #5B6F80 0%, #365067 100%), #FFFFFF;
+        // background: radial-gradient(50% 50% at 50% 50%, #5B6F80 0%, #365067 100%), #FFFFFF;
         text-align: center;
     }
 

@@ -1312,10 +1312,11 @@ class Toolbox extends Component<Props, State> {
         overflowMenuContent.splice(
             1, 0, ...this._renderMovedButtons(movedButtons));
 
+        
         return (
             <div className = 'toolbox-content'>
                 <div className = 'button-group-left'>
-                    { buttonsLeft.indexOf('chat') !== -1
+                    {/* { buttonsLeft.indexOf('chat') !== -1
                         && <div className = 'toolbar-button-with-badge'>
                             <ToolbarButton
                                 accessibilityLabel = { t('toolbar.accessibilityLabel.chat') }
@@ -1337,7 +1338,7 @@ class Toolbox extends Component<Props, State> {
                     {
                         buttonsLeft.indexOf('closedcaptions') !== -1
                             && <ClosedCaptionButton />
-                    }
+                    } */}
                 </div>
                 <div className = 'button-group-center'>
                     { this._renderAudioButton() }
@@ -1346,7 +1347,7 @@ class Toolbox extends Component<Props, State> {
                     { this._renderVideoButton() }
                 </div>
                 <div className = 'button-group-right'>
-                    { buttonsRight.indexOf('localrecording') !== -1
+                    {/* { buttonsRight.indexOf('localrecording') !== -1
                         && <LocalRecordingButton
                             onClick = {
                                 this._onToolbarOpenLocalRecordingInfoDialog
@@ -1372,7 +1373,7 @@ class Toolbox extends Component<Props, State> {
                                 className = 'overflow-menu'>
                                 { overflowMenuContent }
                             </ul>
-                        </OverflowMenuButton> }
+                        </OverflowMenuButton> } */}
                 </div>
             </div>);
     }
